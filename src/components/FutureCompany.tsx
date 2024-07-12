@@ -24,7 +24,7 @@ const FutureCompany = () => {
         "Android Developer",
         "Associate Developer",
       ],
-      location: "Gurgaon",
+      location: "Delhi",
     },
     {
       companyName: "DeltaX",
@@ -58,8 +58,8 @@ const FutureCompany = () => {
   ];
   return (
     <main className=" px-20 bg-[#F9F9F9] ">
-      <div className="flex flex-ro font-boldw">
-        <h1 className=" py-10 text-5xl ">All Visited Companies</h1>
+      <div className="flex flex-ro font-bold">
+        <h1 className=" py-10  text-5xl ">All Upcoming Companies</h1>
         <span className="my-12 px-5 mx-5 text-3xl border-[1px] border-[#BBBBBB] rounded-3xl ">
           {company.length}
         </span>

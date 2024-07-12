@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="relative">
-      <div className="relative z-10 px-20 py-20 bg-white">
+      <div className="relative px-20 py-20  bg-transparent">
         <div className="flex flex-col md:flex-row ">
           <div className="md:w-1/2 text-5xl mx font-bold pr-44 mb-10 md:mb-0">
             We love <span className="text-[#81A2EF]">software</span> and the{" "}
@@ -47,7 +47,7 @@ const Footer = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1440 320"
-          className="w-full absolute bottom-0 left-0"
+          className="w-full absolute bottom-0 left-0 -z-10"
         >
           <path
             fill="#F0EACF"
