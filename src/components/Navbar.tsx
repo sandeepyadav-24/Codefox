@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between mx-20 py-5">
+    <div className="flex flex-col md:justify-between mx-20 py-5">
       <div className="text-[#2F4AE3] text-4xl font-bold">
         <Link href={"/"}>Codefox</Link>
       </div>
       <div>
-        <ul className="flex flex-row  text-[#616B6F] text-lg ">
+        <ul className="flex flex-col md:flex-row  text-[#616B6F] text-lg ">
           <li className="mx-5 py-2">
             <Link href={"/upcomingCompany"}>Upcoming Visits</Link>
           </li>

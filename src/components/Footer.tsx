@@ -3,14 +3,14 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="relative">
-      <div className="relative px-20 py-20  bg-transparent">
+      <div className="relative p-5 md:p-20  bg-transparent">
         <div className="flex flex-col md:flex-row ">
           <div className="md:w-1/2 text-5xl mx font-bold pr-44 mb-10 md:mb-0">
             We love <span className="text-[#81A2EF]">software</span> and the{" "}
             <span className="text-[#EEB17B]">people</span> who build them
           </div>
-          <div className="md:w-1/2 flex flex-row pl-40">
-            <div className="community mx-10">
+          <div className="md:w-1/2 flex flex-row md:pl-40">
+            <div className="community md:mx-10">
               <h1 className="text-[#616B6F] font-medium">COMMUNITY</h1>
               <h3>Organize a hackathon</h3>
               <h3>Explore Hackathons</h3>

@@ -22,9 +22,9 @@ const Hero = () => {
   ];
   return (
     <div className="bg-[#F6F6F6]">
-      <div className=" flex flex-row ">
-        <div className="mx-20 w-1/2 py-10">
-          <h1 className="text-5xl font-bold">
+      <div className=" flex flex-col md:flex-row ">
+        <div className=" mx-10 md:mx-20 md:w-1/2 py-10">
+          <h1 className="text-sm md:text-5xl  font-bold">
             Your Ultimate
             <span className="text-[#1C4980] px-2 ">
               College Placement Preparation

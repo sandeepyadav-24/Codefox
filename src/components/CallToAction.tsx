@@ -2,9 +2,9 @@ import React from "react";
 
 const CallToAction = () => {
   return (
-    <div className="bg-[#F3F1FF] mx-20 rounded-3xl px-20 py-20">
-      <div className="w-1/2">
-        <div className="text-6xl font-bold">
+    <div className="bg-[#F3F1FF] mx-5 md:mx-20 rounded-3xl p-5 md:p-20">
+      <div className="md:w-1/2">
+        <div className="text-4xl md:text-6xl font-bold">
           <h1>Don't</h1>
           <h1>Just Be Good.</h1>
           <h1 className="text-[#6548EE]">Be Great. Be Pro.</h1>
