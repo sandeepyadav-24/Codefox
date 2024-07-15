@@ -103,10 +103,10 @@ const FinalStep = ({ handlePrev }: any) => {
   return (
     <div>
       <h2>Review your information:</h2>
-      <p>Name: {userInfo.name}</p>
+      {/**<p>Name: {userInfo.name}</p>
       <p>Father Name: {userInfo.fatherName}</p>
       <p>Mother Name: {userInfo.motherName}</p>
-      <p>School Name: {userInfo.schoolName}</p>
+      <p>School Name: {userInfo.schoolName}</p> */}
       <p>Sister Name: {userInfo.sisterName}</p>
       <p>Brother Name: {userInfo.brotherName}</p>
       <p>Password: {userInfo.password}</p>
