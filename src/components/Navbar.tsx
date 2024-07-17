@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col md:justify-between mx-20 py-5">
+    <div className="flex flex-col md:flex-row md:justify-between mx-20 py-5">
       <div className="text-[#2F4AE3] text-4xl font-bold">
         <Link href={"/"}>Codefox</Link>
       </div>
