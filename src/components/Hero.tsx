@@ -38,7 +38,43 @@ const Hero = () => {
           </h3>
           <ShimmerButton shimmerColor="#EAE8FD" />
         </div>
-        <div className="py-20">Here Put some Nice Diagram and Pictures</div>
+        <div className="py-20 flex flex-row">
+          <div className="firstCol">
+            <div className="firstRow bg-[#E9FBF1] flex flex-row">
+              <div>
+                <p className="font-semibold">Community</p>
+                <p>Connect with 500+ peers</p>
+              </div>
+              <div>
+                <img
+                  src="https://www.propeers.in/images/small-card-3.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="secondRow bg-[#FFCCF6] flex flex-row">
+              <div>
+                <p>Ask Anything</p>
+                <p>& we find you a mentor</p>
+              </div>
+              <div>
+                <img src="https://www.propeers.in/images/rafiki.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div className="secondCol bg-[#FEF4E5]">
+            <div>
+              <p>Jobs</p>
+              <p>Explore latest Opportunities</p>
+            </div>
+            <div>
+              <img
+                src="https://www.propeers.in/images/Mentors-cuate.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div className="flex flex-row mx-20 my-10">
         <div className="w-1/5">
