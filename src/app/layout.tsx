@@ -9,6 +9,7 @@ import {
   useRecoilState,
   useRecoilValue,
 } from "recoil";
+import { SessionProvider } from "next-auth/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <RecoilRoot>{children}</RecoilRoot>
+        <SessionProvider>
+          <RecoilRoot>{children}</RecoilRoot>
+        </SessionProvider>
       </body>
     </html>
   );
