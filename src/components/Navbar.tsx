@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react";
+import DropDown from "./DropDown";
 
 const Navbar = () => {
   const { data: session, status } = useSession();
@@ -23,6 +24,9 @@ const Navbar = () => {
           </li>
           <li className="mx-5 py-2">
             <Link href={"/pastVisit"}>Past Visits</Link>
+          </li>
+          <li className="mx-5 py-2">
+            <DropDown />
           </li>
           <li className="mx-5 py-2">
             <Link href={"/leaderBoard"}>Leaderboard</Link>
