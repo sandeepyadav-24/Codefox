@@ -6,9 +6,10 @@ import DropDown from "./DropDown";
 
 const Navbar = () => {
   const { data: session, status } = useSession();
-
-  if (status === "loading") {
+  {
+    /**if (status === "loading") {
     return <div>Loading...</div>; // You can replace this with a proper loading state or spinner
+  } */
   }
 
   return (
