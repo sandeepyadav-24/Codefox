@@ -11,7 +11,6 @@ const Test = ({ link, title, channel }: any) => {
     title,
     channel,
   };
-  console.log(params);
   const handleSummary = async () => {
     const response = await axios.get("http://localhost:4000/mcq", {
       params,
@@ -26,7 +25,7 @@ const Test = ({ link, title, channel }: any) => {
     // Convert the cleaned string to a JavaScript array of objects
     const dataArray = JSON.parse(newdata);
 
-    console.log(dataArray);
+    // console.log(dataArray);
   };
   return (
     <div>
