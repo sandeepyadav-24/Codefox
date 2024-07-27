@@ -10,9 +10,11 @@ import { FaYoutube } from "react-icons/fa";
 import { data } from "../../../db/language";
 import Navbar from "@/components/Navbar";
 import { FaNoteSticky } from "react-icons/fa6";
-import { BiTestTube } from "react-icons/bi";
+
 
 import Summary from "./../../components/Summary"
+import Test from "./../../components/Test"
+
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 
@@ -62,7 +64,8 @@ const Languages = () => {
                         </a>
                       </div>
                       <div className="w-1/12">
-                        <BiTestTube className="w-8 h-8" />
+                        <Test link = {video.link} title = {video.name} channel = "codehelp-by Babbar"/>
+                        
                       </div>
                       <div className="w-1/12">
                         <Summary link = {video.link} title = {video.name} channel = "codehelp-by Babbar"/>
