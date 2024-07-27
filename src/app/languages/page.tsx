@@ -1,3 +1,5 @@
+
+
 import React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -9,9 +11,11 @@ import { data } from "../../../db/language";
 import Navbar from "@/components/Navbar";
 import { FaNoteSticky } from "react-icons/fa6";
 import { BiTestTube } from "react-icons/bi";
-import { RiArticleFill } from "react-icons/ri";
 
+import Summary from "./../../components/Summary"
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
+
+
 
 const Languages = () => {
   return (
@@ -61,7 +65,7 @@ const Languages = () => {
                         <BiTestTube className="w-8 h-8" />
                       </div>
                       <div className="w-1/12">
-                        <RiArticleFill className="w-8 h-8" />
+                        <Summary link = {video.link} title = {video.name} channel = "codehelp-by Babbar"/>
                       </div>
                     </div>
                   ))}
