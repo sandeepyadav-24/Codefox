@@ -6,6 +6,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogContent from "@mui/material/DialogContent";
 import DialogTitle from "@mui/material/DialogTitle";
 import CircularProgress from "@mui/material/CircularProgress";
+import Image from "next/image";
 
 import { RiArticleFill } from "react-icons/ri";
 import DOMPurify from "dompurify";
@@ -76,6 +77,12 @@ const Summary = ({ link, title, channel }: any) => {
         <DialogContent>
           {loading ? (
             <div className="flex justify-center items-center h-[650px] flex-col">
+              <Image
+                src="/assets/runningFox.gif"
+                alt="RunningFox"
+                width={500}
+                height={500}
+              />
               <CircularProgress />
               <div className="my-2">Generating the Summary ...</div>
             </div>
